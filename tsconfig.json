@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "dist",
+    "target": "es2018",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "resolveJsonModule": true
+  },
+  "paths": {
+    "*": ["node_modules/*"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
