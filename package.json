@@ -6,8 +6,11 @@
   "repository": "https://github.com/Renddslow/pipr",
   "license": "MIT",
   "author": "Matt McElwee <mubatt@wyopub.com>",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -d",
+    "test": "ava"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -20,14 +23,12 @@
   },
   "prettier": "@dmsi/prettier-config",
   "ava": {
-    "babel": false,
-    "compileEnhancements": false,
     "concurrency": 4,
     "extensions": [
       "ts"
     ],
     "files": [
-      "src/**/*.test.ts"
+      "src/**/test.ts"
     ],
     "require": [
       "ts-node/register"
