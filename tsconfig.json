@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "./dist",
-    "outDir": "dist",
+    "declarationDir": "./build",
+    "outDir": "build",
     "target": "es2018",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
