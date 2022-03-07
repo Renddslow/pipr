@@ -1,19 +1,16 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "./build",
-    "outDir": "build",
-    "target": "es2018",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "module": "commonjs",
     "baseUrl": ".",
-    "resolveJsonModule": true
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "es2018"
   },
   "paths": {
     "*": ["node_modules/*"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*!(test).ts"],
   "exclude": ["node_modules"]
 }

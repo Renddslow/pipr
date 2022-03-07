@@ -1,6 +1,6 @@
 # pipr
 
-> A tiny (317 bytes) function for piping the results of one function to the next.
+> A tiny (381 bytes ESM/527 bytes CJS) function for piping the results of one function to the next.
 
 ## Install
 

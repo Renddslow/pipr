@@ -18,6 +18,7 @@ export const eject = (cb: Function) =>
   new Proxy(cb, {
     get: (o, k) => {
       if (k === 'name') return '@pipr/eject';
+      // @ts-ignore
       return o[k];
     },
   });
