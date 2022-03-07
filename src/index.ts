@@ -1,4 +1,4 @@
-export default (fns: Array<Function>) => (...args: any) => {
+export default (fns: Array<Function>) => <Args extends unknown[]>(...args: Args) => {
   if (fns.some((f) => typeof f !== 'function'))
     throw new Error('Each value of the function array must be a callable function');
   let idx = 0;
@@ -14,11 +14,10 @@ export default (fns: Array<Function>) => (...args: any) => {
   return res;
 };
 
-export const eject = (cb: Function) =>
+export const eject = (cb: Function): Function =>
   new Proxy(cb, {
-    get: (o, k) => {
+    get: (o: Function & Record<string, any>, k: string) => {
       if (k === 'name') return '@pipr/eject';
-      // @ts-ignore
       return o[k];
     },
   });
