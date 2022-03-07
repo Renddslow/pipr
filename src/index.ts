@@ -1,4 +1,4 @@
-export default (fns: Array<Function>) => <Args extends unknown[]>(...args: Args) => {
+export default (fns: Function[]) => <Args extends unknown[]>(...args: Args) => {
   if (fns.some((f) => typeof f !== 'function'))
     throw new Error('Each value of the function array must be a callable function');
   let idx = 0;
