@@ -20,6 +20,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.2.0] - 2022-03-07
+
+### Fixed
+
+- Corrected types
+- Corrected files included in the bundle
+
+### Security
+
+- \[dependabot] Bumped ini
+- \[dependabot] Bumped hosted-git-info
+- \[dependabot] Bumped lodash
+- \[dependabot] Bumped normalize
+- \[dependabot] Bumped glob-parent
+- \[dependabot] Bumped path-parse
+- \[dependabot] Bumped trim-off-newlines
+
+---
+
 ## [1.1.0] 2022-03-07
 
 ### Changed
