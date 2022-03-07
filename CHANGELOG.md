@@ -20,6 +20,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.1.0] 2022-03-07
+
+### Changed
+
+- Changed package to ESM
+
+---
+
 ## [1.0.0] - 2020-10-19
 
 ### Added
