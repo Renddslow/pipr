@@ -22,7 +22,8 @@
   },
   "files": [
     "dist/index.d.ts",
-    "dist/index.js"
+    "dist/index.esm.js",
+    "dist/index.cjs"
   ],
   "husky": {
     "hooks": {
