@@ -1,6 +1,6 @@
 {
   "name": "pipr",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": false,
   "description": "A tiny function for piping the results of one function to the next.",
   "repository": "https://github.com/Renddslow/pipr",
