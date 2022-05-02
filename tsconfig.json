@@ -9,5 +9,5 @@
     "target": "es2018",
     "strict": true
   },
-  "include": ["src/**/*!(test).ts"]
+  "include": ["src"]
 }
